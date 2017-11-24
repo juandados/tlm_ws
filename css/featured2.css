@@ -1,0 +1,43 @@
+#featured2{
+    background-image:url(/IMG/Slide-3-logos.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+
+#featured2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#featured2 .contenedor{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+   /* justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateY(-50%) translateX(50%);*/
+}
+
+#featured2 .col-xs-4, .col-xs-8, .col-xs-6{
+    display:inline;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#featured2 img{
+    display: inline;
+    vertical-align: middle;
+}

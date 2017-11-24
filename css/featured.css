@@ -1,0 +1,57 @@
+#featured{
+    background-image:url(/IMG/Slide-3-logos.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+
+#featured .contenedor{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    
+   /* justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translateY(-50%) translateX(50%);*/
+}
+
+#featured .fotorama{
+    height: 180px;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+#featured h2{
+    position: absolute;
+    top: 25%;
+    right: 0%;
+    width: 100%;
+    font-size: 20px;
+}
+
+@media(min-width:1024px){
+#featured h2{
+    font-size: 200%;
+}
+}
+
+@media(min-width:550px){
+#featured h2{
+    font-size: 150%;
+}
+}

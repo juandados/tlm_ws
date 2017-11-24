@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Synaptica Col</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <link rel="stylesheet" href="css/fontello.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <!--<link rel="stylesheet" href="css/estilosProducto.css">-->
+        <!--<link rel="stylesheet" href="css/estilosProducto2.css">-->
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="pestanas.js"></script>
+        <link rel="stylesheet" href="css/pestanas.css">
+    </head>
+
+    <body onscroll="fBarra()" onload="begin()">
+        <div w3-include-html="header.html"></div>
+        <main>
+            <section id="banner">
+               <img src="IMG/Nosotros.png" alt="Slide">
+                <!---<div class="bandera21" style="background-color:rgba(175,205,73,0.9)">
+                   <p id="ban">IMPULSOS <br>PRIMARIOS</p>
+                </div>-->
+            </section>   
+            <section id="cabezote" style="position: relative; top: -70px; !important; justify-content:center; padding-left:10px;padding-right:10px">
+               <div class="contenedor">
+                <div class="row" style="width:100%">
+                    <div class="col-xs-4" style="text-align:center !important"><a href="#"><b onclick="somos()">¿Quienes Somos?</b></a></div>
+                    <div class="col-xs-4" style="text-align:center !important"><a href="#"><b onclick="misionVision()">¿Misión y Visión?</b></a></div>
+                    <div class="col-xs-4" style="text-align:center !important"><a href="#"><b onclick="valores()">Valores</b></a></div>
+                </div>
+                </div>
+            </section> 
+                    
+            <section id="contenido" style="position: relative; top: -70px;">
+                <div id="includedContent" w3-include-html="paso.html"></div>
+            </section>
+                        
+            <section id="otros" style="position: relative; top: -70px;">
+                <div w3-include-html="otros.html"></div>
+            </section>
+        </main>
+        <footer>
+            <div w3-include-html="footer.html" ></div>
+        </footer>
+    <script src="w3-include-HTML.js"></script>
+    <script src="fBarra.js"></script>
+    </body>
+    
+</html>

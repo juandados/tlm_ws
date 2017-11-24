@@ -1,0 +1,67 @@
+#formulario{
+    margin-top: 100px;
+    position: relative;
+    padding: 20px;
+}
+
+#formulario .contenedor{
+    margin-top: 30px;
+}
+
+#titulo{
+    color: #1e6679;
+}
+#formulario .col-sm-4{
+}
+
+#formulario label{
+    margin:10px;
+    color: #9c9c9d;
+    color:1e6679
+}
+
+#formulario input, textarea{
+    margin: 10px;
+    width: 100%;
+    padding: 3px;
+    border: 2px solid transparent;
+    -webkit-border-image: -webkit-linear-gradient(left, #1181a4 , #66e7dd); /* For Safari 5.1 to 6.0 */
+    -o-border-image: -o-linear-gradient(right, #1181a4 , #66e7dd); /* For Opera 11.1 to 12.0 */
+    -moz-border-image:-moz-linear-gradient(right, #1181a4 , #66e7dd); /* For Firefox 3.6 to 15 */
+    border-image: linear-gradient(to right, #1181a4 , #66e7dd);
+    border-image-slice:1;
+    border-radius: 5px;
+}
+
+#formulario .portaBoton input{
+    width: 40%;
+    color: white;
+    background: rgb(39,172,174); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #1181a4 , #66e7dd); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #1181a4 , #66e7dd); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #1181a4 , #66e7dd); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #1181a4 , #66e7dd); /* Standard syntax */
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+
+#formulario .portaBoton {
+    text-align: center;   
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width:800px){
+    #formulario .col-sm-4 img{
+        display: none;
+    }
+    
+}
+    
+}
+

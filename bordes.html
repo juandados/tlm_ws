@@ -1,0 +1,35 @@
+<html>
+
+
+<head>
+    <style>
+    @import url('//raw.githubusercontent.com/necolas/normalize.css/master/normalize.css');
+    .grounded-radiants {
+        position: relative;
+        border: 2px solid transparent;
+        border-radius: 10px;
+        background: linear-gradient(white, white);
+        background-clip: padding-box;
+        padding: 4px;
+        /* just to show box-shadow still works fine */
+    }
+
+    .grounded-radiants::after {
+        position: absolute;
+        top: -2px; bottom: -2px;
+        left: -2px; right: -2px;
+        background: red; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left, #1181a4 , #66e7dd);
+        background: -o-linear-gradient(left, #1181a4 , #66e7dd);
+        background: linear-gradient(to right, #1181a4 , #66e7dd); /* For Safari 5.1 to 6.0 */
+        content: '';
+        z-index: -1;
+        border-radius: 10px;
+    }
+    </style>
+</head>
+<body>
+<p class="grounded-radiants">so cool.</p>    
+</body>
+
+</html>

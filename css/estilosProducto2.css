@@ -1,0 +1,243 @@
+#cabezote{
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    background-image:url(/IMG/Slide-3-logos.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    color: #fff;
+}
+
+#cabezote2{
+    margin-top: 100px;
+    position: relative;
+    padding: 30px;
+    text-align: center;
+    background-size:cover;
+    display: flex;
+    vertical-align: middle;
+}
+
+.row{
+    justify-content: center;
+}
+
+#cabezote2 #p1{
+    color: rgb(155,155,155);
+}
+
+#titulo{
+    color: rgb(30,102,121);
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    border-left: 8px solid;
+    padding: 20px
+}
+
+#cabezote h3{
+    text-align: left;
+    padding-bottom: 20px;   
+}
+
+#cabezote p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#descripcion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    font-size: 14px;
+    color: #9c9c9d;
+    background-image: url(/IMG/Texture-service.png);
+}
+#descripcion .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+#descripcion img{
+    width: 30px;
+}
+
+#descripcion2{
+    color: rgb(155,155,155);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#descripcion2 #vino{
+    text-align: center;
+    padding-left: 150px
+}
+#descripcion2 #texto{
+    text-align: left;
+    margin-left: -30px;
+}
+
+
+#descripcion2 p{
+    color: rgb(155,155,155);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#descripcion2 h2{
+    color: rgb(0,155,181);
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    /*position: absolute;*/
+    padding-top: 18px;
+}
+
+#t1{
+    color: rgb(30,102,121);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#imagProducto{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+#circulo{
+    width: 20px;
+    margin-right: 3px;
+}
+#izquierda p{
+    font-size: 80%;
+}
+
+#descripcion .col-sm-6{
+   padding: 10px;
+   text-align: center;
+}
+.titulo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #706f6f;
+    align-items: center;
+}
+.titulo img{
+    width: 150px;
+    height: 100%;
+}
+.titulo h1{
+    padding: 15px;
+    width: 150px;
+}
+.recuadro{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ececec;
+    text-align: left;
+}
+.recuadro ul{
+    color: #5e845d;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.recuadro li{
+    margin-top: 2px;
+}
+
+#ilustracion{
+    width: 100%;
+}
+
+#otros .contenedor h2{
+color: #5fb2c2;
+padding-bottom: 20px;
+}
+.servicios{
+    background-image:url(/IMG/Slide-3-logos.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 28px;
+    font-size: 12px;
+    color: #9c9c9d;
+    margin-bottom: 80px;
+    border-bottom: 10px solid;
+}
+.servicios ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type:none;
+    justify-content: center;
+}
+.servicios li{
+    width: 10%;
+    margin-right: 4%;
+    margin-left: 4%;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.servicios img{
+    width: 120%;
+    height: 100%;
+    
+}
+.servicios #secundarios{
+    display: none;
+}
+.servicios a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 0px;
+}
+.servicios #secundarios a{
+    color:#1e6679; 
+}
+
+@media(min-width:1024px){
+    #descripcion{
+        font-size: 16px;
+    }
+}
+
+@media(min-width:550px){
+    .servicios a{
+        font-size: 12px;
+    }   
+}
+@media(min-width:900px){
+    .servicios a {
+        font-size: 16px;
+    }   
+}
+
+@media(max-width:360px){
+    #descripcion2 #vino{
+        display: none;
+    }
+    #descripcion2 #texto{
+        text-align: center;
+    }
+}
+
