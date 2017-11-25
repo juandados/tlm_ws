@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 1020px;
+  margin: 0 auto
+}
+
+.wrapper img{
+  width: 20%
+}
+
+@media(max-width:720px){
+    .wrapper img{
+        width: 30%;
+    } 
+    
+@media(max-width:400px){
+    .wrapper img{
+        width: 50%;
+    } 
+}
