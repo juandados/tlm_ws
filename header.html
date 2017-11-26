@@ -12,31 +12,17 @@
         <script src="fBarra.js"></script>
     </head>
 
-    <body onscroll="fBarra()">
-        <div class="busqueda">
-            <div class="contenedor">
-                <ul> 
-                    <li><a href="https://www.facebook.com/synapticacol/"><img src="IMG/Facebook-menu.png" alt="icono facebook"></a></li>
-                    <li><a href="https://twitter.com/SynapticaCol"><img src="IMG/Twitter-menu.png" alt="icono facebook"></a></li>
-                    <li><a href="https://www.linkedin.com/company/synaptica-consultores-s.a.s."><img src="IMG/Linkedin-menu.png" alt="icono facebook"></a></li>
-                    <!---<li><input type="text">-->
-                </ul>
-            </div>
+    <header id="header">
+        <div class="contenedor">
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a href="nosotros.html">Tálamo</a>
+                <a href="nosotros.html">Synaptica</a>
+                <a href="formulario.php">Contacto</a>
+                <a href="motivacion.html">Productos</a>
+            </nav>
         </div>
-        <header id="header">
-            <div class="contenedor">
-                <a href="/index.html"><h1><img src="IMG/Logo-menu.png"></h1></a>
-                <input type="checkbox" id="menu-bar">
-                <label class="icon-menu" for="menu-bar"></label>
-                <nav class="menu">
-                    <a href="nosotros.html">Nosotros</a>
-                    <!--<a href="#experiencia">Experiencia</a>-->
-                    <a href="motivacion.html">Productos</a>
-                    <!--<a href="#recursos">Recursos</a>-->
-                    <a href="formulario.php">Contacto</a>
-                </nav>
-            </div>
-        </header>
-    </body>
+    </header>
 
 </html>
