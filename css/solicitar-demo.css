@@ -75,7 +75,7 @@
     background: -o-linear-gradient(left, rgba(46,199,255,1) 0%, rgba(113,237,227,1) 51%, rgba(103,245,236,1) 100%);
     background: -ms-linear-gradient(left, rgba(46,199,255,1) 0%, rgba(113,237,227,1) 51%, rgba(103,245,236,1) 100%);
     background: linear-gradient(to right, rgba(46,199,255,1) 0%, rgba(113,237,227,1) 51%, rgba(103,245,236,1) 100%);
-    ssh -i id_jdchacon_rsa jdchacon@13.58.232.165ssh -i id_jdchacon_rsa jdchacon@13.58.232.165ssh -i id_jdchacon_rsa jdchacon@13.58.232.165filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ec7ff', endColorstr='#67f5ec', GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ec7ff', endColorstr='#67f5ec', GradientType=1 );
 }
 
 @media(max-width:770px){
