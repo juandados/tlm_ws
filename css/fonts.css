@@ -1,0 +1,35 @@
+.titulo-font{
+    font-size: 42px;
+    color: #252726;
+    font-family: 'Exo-SemiBold';
+}
+
+.descripcion-font{
+    font-size: 21px;
+    color: #252726;
+    font-family: 'Nunito-Ligth';
+}
+
+.destacado1-font{
+    font-size: 22px;
+    color: #45C9BC;
+    font-family: 'Exo-Medium';
+}
+
+.destacado2-font{
+    font-size: 27px;
+    color: #45C9BC;
+    font-family: 'Exo-Medium';
+}
+
+.footer-font{
+    font-size: 14px;
+    color: #71898E;
+    font-family: 'Bree-Regular';
+}
+
+.menu-font{
+    font-size: 17px;
+    color: #1e6679;
+    font-family: 'Bree-Regular';
+}
