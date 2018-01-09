@@ -32,6 +32,12 @@
   background-image: linear-gradient(to right, #3acfd5 0%, rgba(28,113,146,1) 100%), linear-gradient(to right, #3acfd5 0%, rgba(28,113,146,1) 100%);
 }
 
+.number{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
 .penultimo{
     height: 40px;
 }
@@ -39,3 +45,23 @@
 .ultimo{
     height: 60px;
 }
+
+.first-row{
+    margin-top: 85px;
+}
+
+.second-row{
+    margin-top: 22px;
+}
+
+.third-row{
+    margin-top: 22px;
+}
+
+.aclaraciones{
+    padding:10px;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 10px;
+}
+
